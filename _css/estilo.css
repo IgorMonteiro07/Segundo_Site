@@ -1,5 +1,12 @@
 @charset"utf-8";
-
+@font-face{
+	font-family:'fontelogo';
+	src:url("../_fonts/bubblegum-sans-regular");
+}
+@font-face{
+	font-family'subfont';
+	src:url("../_fonts/TitilliumWeb-BoldItalic.ttf")
+}
 p{
 	text-align:justify;
 	text-indent:50px;
@@ -9,6 +16,42 @@ body{
 	background-color:white;
 	color: rgba(0,0,0,1);
 }
+div#interface{
+	width:900px;
+	margin:-20px auto 0px auto;
+	box-shadow:0px 0px 10px rgba(0,0,0,0.5);
+	padding:30px 10px 10px 10px;
+}
+header#cabeçalho img#icone{
+	position:absolute;
+	left: 900px;
+	top:70px;
+}
+header#cabeçalho{
+  border-bottom:1px #606060 solid;
+  height:150px;
+}
+header#cabeçalho img#logo{
+	position:absolute;
+	left:230px;
+	top:130px;
+}
+header#cabeçalho h1{
+	font-family:'fontelogo',sans-serif;
+	font-size:30px;
+	color:#606060;
+	text-shadow:1px 1px 1px rgba(0,0,0,.6);
+	margin-bottom:0px;
+	padding:0px;
+}
+header#cabeçalho h2{
+	font-family:'subfont',sans-serif;
+	font-size:15px;
+	color:#888888;
+	padding:0px;
+	margin-top:0px;
+}
+
 /* Formatação de imagens com legendas */
 figure.foto-legenda{
 	position:relative;
@@ -36,4 +79,57 @@ figure.foto-legenda figcaption {
 
 figure.foto-legenda:hover figcaption{
 	opacity:1;
+}
+/* Formatação de menu */
+nav#menu{
+	display:block;
+}
+nav#menu ul{
+	list-style:none;
+	text-transform:uppercase;
+	position: absolute;
+	top: -20px;
+	left:516px;
+}
+nav#menu li {
+	display:inline-block;
+	background-color:#dddddd;
+	padding:10px;
+	margin:2px;
+	transition:background-color 1s;
+}
+nav#menu li:hover{
+	background-color: #606060;
+	
+}
+nav#menu h1{
+	display:none;
+}
+nav#menu a{
+	color:#000000;
+	text-decoration:none;
+}
+nav#menu a:hover{
+	color:#ffffff;
+}
+/* Formatação de layout */
+section#corpo {
+	display:block;
+	width:500px;
+	float:left;
+	border-right:1px solid #606060;
+	padding-right:15px;
+}
+
+aside#lateral{
+	display:block;
+	width:370px;
+	float:right;
+}
+footer#rodape{
+	clear:both;
+	border-top:1px solid #606060;
+}
+footer#rodape p {
+	text-align:center
 }
