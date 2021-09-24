@@ -15,7 +15,17 @@ p{
 body{
 	background-color:white;
 	color: rgba(0,0,0,1);
+	font-family:arial,sans-serif;
 }
+a{
+	color:#606060;
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
 div#interface{
 	width:900px;
 	margin:-20px auto 0px auto;
@@ -114,6 +124,41 @@ figure.foto-legenda figcaption {
 figure.foto-legenda:hover figcaption{
 	opacity:1;
 }
+
+article#noticia h2{
+	font-size:12pt;
+	color:#606060;
+	background-color:#dddddd;
+	padding: 5px 0px 5px 10px;
+	margin:10px 0px 10px 0px;
+}
+
+header#cabecalho_artigo h1{
+	font-family:'fontelogo',sans-serif;
+	font-size:20pt;
+	color:#606060;
+	margin-bottom:0px;
+	margin-top:0px;
+	
+}
+
+header#cabecalho_artigo h2{
+	font-size:13pt;
+	color:#cecece;
+	margin:0px;
+	background-color:#ffffff;
+	
+}
+
+header#cabecalho_artigo h3{
+	font-size:10pt;
+	color:#606060;
+	
+}
+.direita{
+	text-align:right;
+}
+
 /* Formatação de menu */
 nav#menu{
 	display:block;
@@ -123,7 +168,7 @@ nav#menu ul{
 	text-transform:uppercase;
 	position: absolute;
 	top: -20px;
-	left:516px;
+	left:498px;
 }
 nav#menu li {
 	display:inline-block;
@@ -153,12 +198,31 @@ section#corpo {
 	float:left;
 	border-right:1px solid #606060;
 	padding-right:15px;
+	
 }
 
 aside#lateral{
 	display:block;
-	width:370px;
+	width:350px;
 	float:right;
+	background-color:#dddddd;
+	padding:10px;
+	margin-top:10px;
+	box-shadow:2px 2px 2px rgba(0,0,0,.5);
+}
+aside#lateral h1{
+	font-family:"fontelogo",sans-serif;
+	font-size:20pt;
+	color:#606060;
+	margin-top:0px;
+	
+}
+aside#lateral h2{
+	font-size:12pt;
+	color:#ffffff;
+	background-color:#606060;
+	padding:5px;
+	
 }
 footer#rodape{
 	clear:both;
@@ -167,3 +231,19 @@ footer#rodape{
 footer#rodape p {
 	text-align:center
 }
+
+video#teste1{
+	display:block;
+	position:relative;
+	width:340px;
+	margin:auto;
+
+}
+video#teste2{
+	display:block;
+	position:relative;
+	width:500px;
+	margin:auto;
+
+}
+
