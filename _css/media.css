@@ -3,7 +3,7 @@ div#tv-radio{
 	width:900px;
 	height:580px;
 	margin:auto;
-	background: url("E:/Site/Segundo site/projeto-glass-html5/Segundo_Site/_imagens/radio-tv.png") no-repeat;
+	background: url("_imagens/radio-tv.png") no-repeat;
 }
 audio#musica{
 	display:block;
