@@ -1,11 +1,11 @@
 @charset"utf-8";
 @font-face{
 	font-family:'fontelogo';
-	src:url("../_fonts/bubblegum-sans-regular");
+	src:url("_fonts/bubblegum-sans-regular");
 }
 @font-face{
 	font-family'subfont';
-	src:url("../_fonts/TitilliumWeb-BoldItalic.ttf")
+	src:url("_fonts/TitilliumWeb-BoldItalic.ttf")
 }
 p{
 	text-align:justify;
